@@ -1,0 +1,28 @@
+{
+  "skill_name": "on-air-text-editor",
+  "status": "draft_before_runtime_testing",
+  "queries": [
+    {"id": "P01", "should_trigger": true, "class": "direct", "query": "Прикладываю пресс-релиз. Подготовь подводку для прямого эфира на 45 секунд."},
+    {"id": "P02", "should_trigger": true, "class": "indirect", "query": "Мне читать это через пять минут. Сделай так, чтобы я не запнулся на фамилиях и числах."},
+    {"id": "P03", "should_trigger": true, "class": "direct", "query": "Уложи эту новость в одну минуту и оставь короткий запасной вариант."},
+    {"id": "P04", "should_trigger": true, "class": "conversation", "query": "Из этой справки сделай карточку для разговора с гостем: главный вопрос, опорные пункты и уточнения."},
+    {"id": "P05", "should_trigger": true, "class": "advertising", "query": "Подготовь этот рекламный текст к чтению в эфире за 30 секунд. Условия акции нельзя потерять."},
+    {"id": "P06", "should_trigger": true, "class": "misspelled", "query": "падготовь этот текст к эфру и паставь ударения где можно ошибиться"},
+    {"id": "P07", "should_trigger": true, "class": "risk", "query": "Проверь перед эфиром имена, даты, цитаты, сокращения и то, как произнести телефон."},
+    {"id": "P08", "should_trigger": true, "class": "indirect", "query": "Перепиши приложенный текст так, чтобы его можно было нормально прочитать в эфире с первого раза."},
+    {"id": "P09", "should_trigger": true, "class": "file", "query": "В файле releases_final.xlsx данные о релизе. Собери короткое объявление для ведущего и отдельно покажи источники."},
+    {"id": "P10", "should_trigger": true, "class": "ready-transcript", "query": "Вот готовая текстовая расшифровка разговора. Сделай подводку и карточку для продолжения интервью."},
+    {"id": "P11", "should_trigger": true, "class": "incomplete", "query": "Вот файл. Подготовь его к эфиру."},
+    {"id": "P12", "should_trigger": true, "class": "multi-step", "query": "Из пресс-релиза выбери главную новость, проверь фамилии и даты, сделай текст на 50 секунд и запасную версию на 30 секунд. Источники вынеси отдельно."},
+    {"id": "N01", "should_trigger": false, "class": "audio-transcription", "query": "Расшифруй приложенную запись интервью в mp3."},
+    {"id": "N02", "should_trigger": false, "class": "audio-editing", "query": "Убери шум и длинные паузы из записи подкаста."},
+    {"id": "N03", "should_trigger": false, "class": "voice-generation", "query": "Озвучь этот ролик голосом нашего ведущего."},
+    {"id": "N04", "should_trigger": false, "class": "music-programming", "query": "Составь музыкальную ротацию на утро и расставь треки по часу."},
+    {"id": "N05", "should_trigger": false, "class": "publishing", "query": "Опубликуй эту новость на сайте и в Телеграме станции."},
+    {"id": "N06", "should_trigger": false, "class": "near-miss", "query": "Сократи этот пресс-релиз для главной страницы сайта и придумай заголовок для поиска."},
+    {"id": "N07", "should_trigger": false, "class": "near-miss", "query": "Проверь фамилии и даты в статье перед публикацией в журнале."},
+    {"id": "N08", "should_trigger": false, "class": "near-miss", "query": "Расставь ударения в стихотворении, чтобы ребёнок выучил его к уроку."},
+    {"id": "N09", "should_trigger": false, "class": "near-miss", "query": "Подготовь из этих тезисов речь для выступления на отраслевой конференции на десять минут."},
+    {"id": "N10", "should_trigger": false, "class": "different-job", "query": "Разработай концепцию новой молодёжной радиостанции и её сетку программ."}
+  ]
+}

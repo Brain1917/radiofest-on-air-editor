@@ -1,0 +1,20 @@
+{
+  "name": "radiofest-on-air-editor",
+  "interface": {
+    "displayName": "Radiofest On-Air Editor"
+  },
+  "plugins": [
+    {
+      "name": "radiofest-on-air-editor",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
