@@ -1,7 +1,7 @@
 {
   "name": "radiofest-on-air-editor",
   "interface": {
-    "displayName": "Radiofest On-Air Editor"
+    "displayName": "Редакционный помощник радио"
   },
   "plugins": [
     {
