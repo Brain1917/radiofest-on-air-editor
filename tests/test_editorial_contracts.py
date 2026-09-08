@@ -201,7 +201,7 @@ class V2ArtifactContractTest(unittest.TestCase):
         self.assertEqual(marketplace["name"], manifest["name"])
         self.assertEqual(marketplace["plugins"][0]["name"], manifest["name"])
         self.assertEqual(marketplace["plugins"][0]["source"]["path"], "./")
-        self.assertEqual(manifest["version"], "0.2.0")
+        self.assertEqual(manifest["version"], "0.3.0")
         self.assertIn(f'  version: "{manifest["version"]}"', skill)
         self.assertEqual(manifest["license"], "MIT")
         self.assertIn("license: MIT\n", skill)
